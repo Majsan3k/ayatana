@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation-header{
+    font-size: 3rem;
+}
+
+.pitch{
+    font-style: italic;
+    margin: 2rem;
+}
+
+.presentation{
+    
+}
+
+@media screen and (max-width: 768px) {
+    .presentation-header{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .pitch{
+        margin: 0rem;
+        margin-bottom: 0.8rem;
+        margin-top: 0.8rem;
+    }
+    
+    .presentation{
+        
+    }
+
+}

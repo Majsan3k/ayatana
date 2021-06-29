@@ -1,0 +1,7 @@
+.header {
+    background-image: url(../../public/img/header2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px groove;
+  }

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 5vw;
+}
+
+.container:not(:last-child){
+    margin-bottom: 15vw
+}
+
+.reversed{
+    flex-direction: row-reverse;
+}
+
+.container-item{
+    width: 50%;
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container-item{
+        font-size: 40%
+    }
+ }
+
+.half-screen{
+    width: 50%;
+}

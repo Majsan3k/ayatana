@@ -12,6 +12,13 @@
     margin: 2rem;
 }
 
+.handpan-img {
+    width: 50%;
+    height: auto;
+    background-image: url('../../public/img/handpan.jpeg');
+    background-size: cover;
+}
+
 .presentation{
     
 }
@@ -30,6 +37,22 @@
     
     .presentation{
         
+    }
+
+    .container.about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-item {
+
+    }
+
+    .handpan-img {
+        width: 100%;
+        min-height: 200px;
+        background-image: url('../../public/img/handpan-wide.jpeg');
+        background-size: cover;
     }
 
 }

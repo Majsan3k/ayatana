@@ -1,0 +1,16 @@
+.ayatana-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ayatana-desc{
+  margin: 5vw;
+  width: 80%;
+}
+
+.ayatana-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

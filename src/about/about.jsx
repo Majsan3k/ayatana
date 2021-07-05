@@ -5,7 +5,7 @@ import Description from './description';
  const About = () => {
      return (
          <div className="about container">
-            <img className="half-screen" src="/img/handpan.jpeg" />
+            <div className="handpan-img"/>
             <Description />
          </div>
      )

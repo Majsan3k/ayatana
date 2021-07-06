@@ -1,7 +1,15 @@
 .header {
     background-image: url(../../public/img/header2.jpg);
-    background-position: center;
+    background-position: -40px 47%;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 1px groove;
+    background-color: #ebebeb;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .header{
+      background-position: -23vw 47%;
+    }
   }

@@ -4,13 +4,34 @@
     align-items: center;
 }
 
+.ayatana-header{
+    padding-top: 2vh;
+    font-size: calc(2rem + 1vw);
+}
+
 .ayatana-desc{
   margin: 5vw;
   width: 80%;
+  font-size: calc(0.35rem + 1vw);
 }
 
 .ayatana-list{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ayatana-img{
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: 0 58%;
+}
+
+@media screen and (max-width: 768px) {
+  .ayatana-img{
+    height: 22vh;
+  }
+
+
 }

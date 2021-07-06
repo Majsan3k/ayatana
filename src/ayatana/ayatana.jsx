@@ -4,8 +4,8 @@ import './ayatana.css'
  const Ayatana = () => {
      return (
          <div className="ayatana-container">
-             <img style={{width:"100%"}} src='./img/buddah.jpg' />
-             <div>Ayatana</div>
+             <img className="ayatana-img" src='./img/buddah.jpg' />
+             <div className="ayatana-header">Ayatana</div>
 
              <div className="ayatana-desc">
                  {`Ayatana har sitt ursprung i den buddhistiska filosofin. Det finns ingen direkt översättning till varken svenska eller engelska men ordet kan beskrivas som sinnessfär. Inom buddhismen brukar det sägas att det finns 12 Ayatanas, vilka är grunden till vårt medvetande. Dessa 12 innefattar både de sinnen vi besitter, interna sinnesbaser, och de objekt vi kan uppleva med våra sinnen, externa sinnesbaser. Tillsammans skapas sex par av interna-externa sinnesbaser:
@@ -16,7 +16,7 @@ import './ayatana.css'
                     <li>näsan och lukter</li>
                     <li>tungan och smaker</li>
                     <li>kroppen och beröring</li>
-                    <li>själen och mentala objekt som påverkas oss, till exempel känslor</li>
+                    <li>själen och mentala objekt som påverkas oss</li>
                  </ul>
              </div>
          </div>

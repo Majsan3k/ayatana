@@ -1,0 +1,17 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    object-position: 0 58%;
+}
+
+@media screen and (max-width: 768px) {
+    .image{
+        height: 27vh;
+    }
+}

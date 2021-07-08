@@ -1,4 +1,8 @@
-
+.email-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 .contact-form{
     display: flex;
     flex-direction: column;
@@ -6,7 +10,6 @@
     margin: 0vw;
     padding: 5vw ;
     position:relative;
-    width: 50%;
 }
 
 .contact-form input, textarea{

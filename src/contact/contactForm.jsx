@@ -1,4 +1,4 @@
-import { React, useState} from 'react';
+import { React, useState } from 'react';
 import emailjs from 'emailjs-com';
 
 import './contactForm.css'
@@ -29,11 +29,20 @@ const ContactForm = () => {
   return (
     <div className="email-container">
       <form className="contact-form" onSubmit={sendEmail}>
-        <input placeholder="Namn" type="text" name="name" />
-        <input placeholder="Email" type="email" name="email" />
-        <textarea placeholder="Skriv ditt meddelande här" name="message" />
+        <input placeholder="Namn" type="text" name="name" required
+          onInvalid={(e) => e.target.setCustomValidity("Fyll i ditt namn")}
+          onInput={(e) => e.target.setCustomValidity("")}
+        />
+        <input placeholder="Email" type="text" name="email" required
+          onInvalid={(e) => e.target.setCustomValidity("Fyll i din email")}
+          onInput={(e) => e.target.setCustomValidity("")}
+        />
+        <textarea placeholder="Skriv ditt meddelande här" name="message" required
+          onInvalid={(e) => e.target.setCustomValidity("Glöm inte att skriva ett meddelande")}
+          onInput={(e) => e.target.setCustomValidity("")}
+        />
         <button className="send-btn" type="submit" value="Skicka" disabled={sendingEmail}>
-          Skicka {sendingEmail && <i className="fa fa-refresh fa-spin"></i>} 
+          Skicka {sendingEmail && <i className="fa fa-refresh fa-spin"></i>}
 
         </button>
       </form>

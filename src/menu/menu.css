@@ -9,7 +9,6 @@
 .menuItems{
     display: flex;
     justify-content: space-around;
-    width: 70%;
 }
 
 .link{

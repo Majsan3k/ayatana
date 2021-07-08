@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 export const Navigation = styled.header`
   width: 100%;
-  border-bottom: 10px solid #222;
+  border-bottom: 5px solid #222;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 100px 0;
+  padding: 0px 70px 0;
   height: 140px;
   margin-bottom: 60px;
   background: #f8f8f8;

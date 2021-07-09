@@ -5,9 +5,9 @@ const Prices = (props) => {
     const {prices} = props;
 
     return (
-        <div>
+        <div className="price"> 
         {prices.map(({name, price}, index) =>
-            <div>
+            <div> 
             <span>{name}</span>
             <span> / </span>
             <span>{price} kr</span>

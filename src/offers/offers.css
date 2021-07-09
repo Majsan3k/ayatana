@@ -3,11 +3,13 @@
     font-size: xxx-large;
 }
 
-@media screen and (max-width: 768px) {
-    .offerHeader{
-        margin-bottom: 0.8rem;
-        font-size: calc(1rem + 1vw);
-    }
+.price{
+    font-size: calc(0.5em + 0.7vw);
+    margin: 1vw;
+}
+
+.offer-img{
+    object-fit: cover;
 }
 
 .offerDesc{
@@ -26,4 +28,25 @@
     justify-content: center;
     height: 8%;
     margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .offer-img{
+        width: 100% !important;
+        height: 40vw;
+    }
+
+    .offerHeader{
+        margin-bottom: 0.8rem;
+        font-size: calc(1rem + 1vw);
+    }
+
+    .book-btn{
+        padding: 15px 18px 15px 18px;
+        height: 8vw;
+    }
+
+    .price{
+        margin: 7vw 0vw 7vw 0vw;
+    }
 }

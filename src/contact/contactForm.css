@@ -37,3 +37,9 @@ textarea:focus, input:focus{
     width: 60%;
     margin-top: 1vw;
 }
+
+@media screen and (max-width: 768px){
+    .email-container{
+        width: 100%;
+    }
+}

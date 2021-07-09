@@ -12,7 +12,7 @@ const OfferContainer = (props) => {
     return (
         <div className={styles}>
             <Offer header={desc.header} description={desc.description} prices={desc.prices}/>
-                <img className='half-screen' src={imgUrl} alt={photo.alt} />
+                <img className='half-screen offer-img' src={imgUrl} alt={photo.alt} />
         </div>
     )
 }

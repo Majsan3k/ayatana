@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ayatana/static/css/main.a67560eb.chunk.css",
-    "main.js": "/ayatana/static/js/main.99de0926.chunk.js",
-    "main.js.map": "/ayatana/static/js/main.99de0926.chunk.js.map",
+    "main.js": "/ayatana/static/js/main.872e696d.chunk.js",
+    "main.js.map": "/ayatana/static/js/main.872e696d.chunk.js.map",
     "runtime-main.js": "/ayatana/static/js/runtime-main.85351fd7.js",
     "runtime-main.js.map": "/ayatana/static/js/runtime-main.85351fd7.js.map",
     "static/js/2.619c5693.chunk.js": "/ayatana/static/js/2.619c5693.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.85351fd7.js",
     "static/js/2.619c5693.chunk.js",
     "static/css/main.a67560eb.chunk.css",
-    "static/js/main.99de0926.chunk.js"
+    "static/js/main.872e696d.chunk.js"
   ]
 }

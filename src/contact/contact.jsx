@@ -1,11 +1,12 @@
 import React from 'react'
 import './contact.css'
 import ContactForm from './contactForm'
+import forest from '../img/forest.jpg'
 
  const Contact = () => {
      return (
          <div className="contact-container">
-           <img className="image" src="/img/forest.jpg" />
+           <img className="image" src={forest} />
            <div className="container reversed">
               <ContactForm />
               <span className="half-screen container-item">

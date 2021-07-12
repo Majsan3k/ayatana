@@ -15,7 +15,7 @@ const offers = [
             ],
         },
         photo: {
-            src: "/img/massage.jpg",
+            src: "massage",
             alt: "massage"
         },
         key: 'massage'
@@ -29,8 +29,8 @@ const offers = [
             ]
         },
         photo: {
-            src: "/img/hand-massage.jpg",
-            alt: "massage"
+            src: "taktil",
+            alt: "taktil"
         },
         key: 'taktil'
     },
@@ -43,8 +43,8 @@ const offers = [
             ]
         },
         photo: {
-            src: "/img/handpan.jpeg",
-            alt: "massage"
+            src: "soundHealing",
+            alt: "sound-healing"
         },
         key: 'taktilAndSound'
     }

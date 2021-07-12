@@ -24,8 +24,9 @@
 .ayatana-img{
   width: 100%;
   height: 45vh;
-  object-fit: cover;
-  object-position: 0 58%;
+  background-position: 0 66%;
+  background-image: url('../img/buddah.jpg');
+  background-size: cover;
 }
 
 @media screen and (max-width: 768px) {

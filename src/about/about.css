@@ -15,7 +15,7 @@
 .handpan-img {
     width: 50%;
     height: auto;
-    background-image: url('../../public/img/handpan.jpeg');
+    background-image: url('../img/handpan.jpeg');
     background-size: cover;
 }
 
@@ -51,7 +51,7 @@
     .handpan-img {
         width: 100%;
         min-height: 200px;
-        background-image: url('../../public/img/handpan-wide.jpeg');
+        background-image: url('../img/handpan-wide.jpeg');
         background-size: cover;
     }
 

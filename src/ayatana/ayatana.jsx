@@ -4,7 +4,7 @@ import './ayatana.css'
  const Ayatana = () => {
      return (
          <div className="ayatana-container">
-             <img className="ayatana-img" src='./img/buddah.jpg' />
+             <img className="ayatana-img"/>
              <div className="ayatana-header">Ayatana</div>
 
              <div className="ayatana-desc">

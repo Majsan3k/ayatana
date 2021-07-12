@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ayatana/static/css/main.a57ba043.chunk.css",
+    "main.js": "/ayatana/static/js/main.806f982e.chunk.js",
+    "main.js.map": "/ayatana/static/js/main.806f982e.chunk.js.map",
+    "runtime-main.js": "/ayatana/static/js/runtime-main.85351fd7.js",
+    "runtime-main.js.map": "/ayatana/static/js/runtime-main.85351fd7.js.map",
+    "static/js/2.619c5693.chunk.js": "/ayatana/static/js/2.619c5693.chunk.js",
+    "static/js/2.619c5693.chunk.js.map": "/ayatana/static/js/2.619c5693.chunk.js.map",
+    "index.html": "/ayatana/index.html",
+    "static/css/main.a57ba043.chunk.css.map": "/ayatana/static/css/main.a57ba043.chunk.css.map",
+    "static/js/2.619c5693.chunk.js.LICENSE.txt": "/ayatana/static/js/2.619c5693.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ayatana/static/media/byHand.b494a0e1.ttf",
+    "static/media/about.css": "/ayatana/static/media/handpan.35963f53.jpeg",
+    "static/media/header.css": "/ayatana/static/media/header2.6b780c81.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85351fd7.js",
+    "static/js/2.619c5693.chunk.js",
+    "static/css/main.a57ba043.chunk.css",
+    "static/js/main.806f982e.chunk.js"
+  ]
+}

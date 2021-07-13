@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ayatana/static/css/main.a67560eb.chunk.css",
+    "main.css": "/ayatana/static/css/main.6e085ae4.chunk.css",
     "main.js": "/ayatana/static/js/main.5820af7c.chunk.js",
     "main.js.map": "/ayatana/static/js/main.5820af7c.chunk.js.map",
     "runtime-main.js": "/ayatana/static/js/runtime-main.85351fd7.js",
@@ -8,7 +8,7 @@
     "static/js/2.205a2b4b.chunk.js": "/ayatana/static/js/2.205a2b4b.chunk.js",
     "static/js/2.205a2b4b.chunk.js.map": "/ayatana/static/js/2.205a2b4b.chunk.js.map",
     "index.html": "/ayatana/index.html",
-    "static/css/main.a67560eb.chunk.css.map": "/ayatana/static/css/main.a67560eb.chunk.css.map",
+    "static/css/main.6e085ae4.chunk.css.map": "/ayatana/static/css/main.6e085ae4.chunk.css.map",
     "static/js/2.205a2b4b.chunk.js.LICENSE.txt": "/ayatana/static/js/2.205a2b4b.chunk.js.LICENSE.txt",
     "static/media/ayatana.css": "/ayatana/static/media/buddah.5d645d2b.jpg",
     "static/media/index.css": "/ayatana/static/media/byHand.b494a0e1.ttf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.85351fd7.js",
     "static/js/2.205a2b4b.chunk.js",
-    "static/css/main.a67560eb.chunk.css",
+    "static/css/main.6e085ae4.chunk.css",
     "static/js/main.5820af7c.chunk.js"
   ]
 }

@@ -23,7 +23,7 @@ const Menu = () => {
                         />
                         <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
                             <NavLink activeClassName="active" onClick={toggleMenu} to="/">
-                                <li>Home</li>
+                                <li>Hem</li>
                             </NavLink>
                             <NavLink activeClassName="active" onClick={toggleMenu} to="/tjanster">
                                 <li>Tjänster</li>

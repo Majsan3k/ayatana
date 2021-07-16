@@ -4,7 +4,9 @@ const Book = (props) => {
     const {treatment} = props;
 
     return (
-        <button class="book-btn">Boka nu</button>
+        <button 
+        onClick={() => window.open("https://boka.se/ayatana")} 
+        class="book-btn">Boka nu</button>
     )
 }
 

@@ -9,9 +9,9 @@ const offers = [
             
             Det går bra att välja ett fokusområde som vi jobbar lite extra med.`,
             prices: [
-                {name: "Halvkropp 30 min", price: 350},
-                {name: "Helkropp 60 min", price: 695},
-                {name: "Helkropp 90 min", price: 1045},
+                {name: "Halvkropp 30 min", price: 400},
+                {name: "Helkropp 60 min", price: 750},
+                {name: "Helkropp 90 min", price: 1150},
             ],
         },
         photo: {
@@ -25,7 +25,8 @@ const offers = [
             header: "Taktil behandling", 
             description: "En holistisk kroppsbehandling med fokus på att skapa trygghet, avslappning och en helande effekt på kroppen. Genom lugna, mjuka och jämna tryck försätts din fysiska kropp i ett lugn som skapar avslappning ända in i själen.",
             prices: [
-                {name: "70 min", price: 750}
+                {name: "60 min", price: 750},
+                {name: "70 min", price: 800}
             ]
         },
         photo: {
@@ -39,7 +40,8 @@ const offers = [
             header: "Taktil behandling med ljudresa", 
             description: "Att beröra flera olika sinnen har en stark effekt på oss. Här kombineras den fysiska beröringen med den läkande effekten ljudet ger oss. Tillsammans skapas en inre naturlig läkningsprocess. \n \n Behandlingen inleds med en taktil behandling och avslutas med en ljudresa.",
             prices: [
-                {name: "80 min", price: 795}
+                {name: "60 min", price: 750},
+                {name: "70 min", price: 800}
             ]
         },
         photo: {

@@ -6,7 +6,7 @@
 }
 
 .container:not(:last-child){
-    margin-bottom: 15vw
+    margin-bottom: 7vw
 }
 
 .reversed{
@@ -21,7 +21,6 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
 
 .half-screen{
     width: 50%;
@@ -40,5 +39,9 @@
 
     .reversed{
         flex-direction: column-reverse;
+    }
+
+    .container:not(:last-child){
+        margin-bottom: 14vw
     }
  }

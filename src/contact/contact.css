@@ -10,6 +10,10 @@
     object-position: 0 58%;
 }
 
+.map-container{
+    margin-bottom: 2vw;
+}
+
 @media screen and (max-width: 768px) {
     .image{
         height: 27vh;

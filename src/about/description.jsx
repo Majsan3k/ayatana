@@ -5,8 +5,7 @@ const Description = () => {
         <div className="container-item">
             <div className="presentation-header">Maja Lund</div>
             <div className="pitch">
-            Massageterapeut och musiker med ett stort hjärta. 
-            Jag hjälper människor att släppa såväl fysiska som mentala spänningar genom massage och ljudets helande kraft. 
+            Massageterapeut och musiker med ett stort hjärta. Jag hjälper människor att släppa såväl fysiska som mentala spänningar genom massage och ljudets helande kraft. 
             För en värld med friskare och lyckligare individer.
             </div>
             <div className="presentation">

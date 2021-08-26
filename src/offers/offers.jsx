@@ -41,7 +41,8 @@ const offers = [
             description: "Att beröra flera olika sinnen har en stark effekt på oss. Här kombineras den fysiska beröringen med den läkande effekten ljudet ger oss. Tillsammans skapas en inre naturlig läkningsprocess. \n \n Behandlingen inleds med en taktil behandling och avslutas med en ljudresa.",
             prices: [
                 {name: "60 min", price: 695},
-                {name: "70 min", price: 750}
+                {name: "70 min", price: 750},
+                {name: "80 min", price: 800}
             ]
         },
         photo: {

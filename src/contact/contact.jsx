@@ -16,13 +16,11 @@ const Contact = () => {
 
               Fyll i formuläret eller skicka ett mail till direkt till mig på info@ayatana.se. Du hittar mig också på Facebook:` }
 
-<div>
-          <FaFacebook
-            className="facebook-icon"
-            size="3rem"
-            onClick={() => window.open('https://www.facebook.com/Ayatana-111548891202396')}
-          />
-        </div>
+            <FaFacebook
+              className="facebook-icon"
+              size="3rem"
+              onClick={() => window.open('https://www.facebook.com/Ayatana-111548891202396')}
+            />
         </span>
       </div>
       <MapContainer />

@@ -14,6 +14,12 @@
     margin-bottom: 2vw;
 }
 
+.facebook-icon{
+    color: blue;
+    size: 10rem;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .image{
         height: 27vh;

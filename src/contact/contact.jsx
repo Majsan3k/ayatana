@@ -3,6 +3,7 @@ import './contact.css'
 import ContactForm from './contactForm'
 import forest from '../img/forest.jpg'
 import MapContainer from './mapContainer.jsx'
+import { FaFacebook } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -13,10 +14,18 @@ const Contact = () => {
         <span className="half-screen container-item">
           {`Letar du efter ett mer holistiskt och hållbart förhållningssätt till din hälsa? Vill du njuta av en härlig behandling? Eller undrar du något helt annat? Tveka inte att höra av dig! 
 
-              Fyll i formuläret eller skicka ett mail till direkt till mig på info@ayatana.se.`}
+              Fyll i formuläret eller skicka ett mail till direkt till mig på info@ayatana.se. Du hittar mig också på Facebook:` }
+
+<div>
+          <FaFacebook
+            className="facebook-icon"
+            size="3rem"
+            onClick={() => window.open('https://www.facebook.com/Ayatana-111548891202396')}
+          />
+        </div>
         </span>
       </div>
-      <MapContainer/>
+      <MapContainer />
     </div>
   )
 }
